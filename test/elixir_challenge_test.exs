@@ -11,7 +11,7 @@ defmodule ElixirChallengeTest do
 
   test "one: decode string where m -> o" do
     expected = "ocr"
-    actual = ElixirChallenge.one "map"
+    actual = ElixirChallenge.one "map", 2
     IO.puts "Challenge 1: " <> actual
     assert actual == expected
   end
@@ -45,7 +45,7 @@ defmodule ElixirChallengeTest do
   end
 
   test "six: ?" do
-    
+
   end
 
 end
